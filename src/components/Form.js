@@ -19,6 +19,7 @@ fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&query
       console.error(err);
     })
 }
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
